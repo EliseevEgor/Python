@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker build . --tag hw2-image
+ID=$(docker run -d -it --name hw2-test --mount type=bind,source="$1",target=/home hw2-image)
+docker exec "$ID" bash -c "cd home ; pip install -r requirements.txt ; python3 generator.py"

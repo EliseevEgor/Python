@@ -1,0 +1,3 @@
+egoreliseev_python_hw1 ~=0.0
+pydot ~=1.4.2
+networkx~=2.6.3

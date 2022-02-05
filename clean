@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker stop hw2-test
+docker rm hw2-test
