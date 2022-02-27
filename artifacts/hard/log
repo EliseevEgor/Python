@@ -1,0 +1,35 @@
+Main process: time = 1645979292.503972, input = Hello
+Main process: time = 1645979292.5047522, put message into queue = Hello
+Process A: time = 1645979292.5050209, take message from queue = Hello
+Process A: time = 1645979292.505306, send message = hello
+Process B: time = 1645979292.5053482, get message from A = hello
+Process B: time = 1645979292.505949, send message to Main = uryyb
+Main process: time = 1645979292.506031, get message from B = uryyb
+Main process: time = 1645979295.477955, input = Hell
+Main process: time = 1645979295.4782138, put message into queue = Hell
+Process A: time = 1645979297.5098398, take message from queue = Hell
+Process A: time = 1645979297.51014, send message = hell
+Process B: time = 1645979297.510189, get message from A = hell
+Process B: time = 1645979297.51074, send message to Main = uryy
+Main process: time = 1645979297.510795, get message from B = uryy
+Main process: time = 1645979298.894028, input = el
+Main process: time = 1645979298.8944309, put message into queue = el
+Main process: time = 1645979302.093039, input = He
+Main process: time = 1645979302.0933251, put message into queue = He
+Process A: time = 1645979302.513579, take message from queue = el
+Process A: time = 1645979302.513809, send message = el
+Process B: time = 1645979302.513852, get message from A = el
+Process B: time = 1645979302.514289, send message to Main = ry
+Main process: time = 1645979302.514347, get message from B = ry
+Main process: time = 1645979303.8607922, input = H
+Main process: time = 1645979303.861038, put message into queue = H
+Process A: time = 1645979307.514327, take message from queue = He
+Process A: time = 1645979307.5145469, send message = he
+Process B: time = 1645979307.5145879, get message from A = he
+Process B: time = 1645979307.515001, send message to Main = ur
+Main process: time = 1645979307.515038, get message from B = ur
+Process A: time = 1645979312.518338, take message from queue = H
+Process A: time = 1645979312.5185971, send message = h
+Process B: time = 1645979312.518643, get message from A = h
+Process B: time = 1645979312.51902, send message to Main = u
+Main process: time = 1645979312.519052, get message from B = u
