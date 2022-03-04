@@ -2,7 +2,7 @@ import numpy as np
 
 from tasks.easy import Matrix
 from tasks.hard import HashMatrix
-from tasks.medium import OperationsMatrix
+from tasks.medium import Matrix as Matrix_medium
 
 FILE_PATH_EASY = 'artifacts/easy/'
 FILE_PATH_MEDIUM = 'artifacts/medium/'
@@ -39,7 +39,7 @@ def task1():
 def task2():
     np_a = np.random.randint(0, 10, (10, 10))
 
-    A = OperationsMatrix(np_a)
+    A = Matrix_medium(np_a)
     B = np.random.randint(0, 10, (10, 10))
 
     (A + B).write_to_file(FILE_PATH_MEDIUM + PATH_ADD)
